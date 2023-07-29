@@ -13,7 +13,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        print("Button pressed!", (sender.titleLabel?.text)! as String)
+    }
+    
 
 }
 
